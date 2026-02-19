@@ -11,7 +11,7 @@ def es_primo(n: int) -> bool:
 
     i = 5
     while i * i <= n:
-        if n % i == 0 or n % (i + 2) == 0:
+        if n % i == 0 or n % (i + 2) == 1:
             return False
         i += 6
 
